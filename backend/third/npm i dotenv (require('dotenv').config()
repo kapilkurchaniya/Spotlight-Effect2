@@ -1,0 +1,3 @@
+npm i dotenv (require('dotenv').config();) -- very imp
+npm i mongoose
+npm i express

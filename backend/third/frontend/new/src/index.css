@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(234, 227, 227);
+    color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.note{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #494949;
+  padding: 2rem;
+  border-radius: 0.7rem;
+  max-width: 20rem;
+  color: rgb(255, 253, 249);
+  margin: 20px;
+}
+.notes{
+  display: flex;
+  gap: 1rem;
+  padding-block: 1rem;
+  padding-inline: 3rem;
+  flex-wrap: wrap; 
+}
