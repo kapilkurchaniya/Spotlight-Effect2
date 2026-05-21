@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(234, 227, 227);
+    color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(150px at var(--x) var(--y), rgba(78, 63, 63, 0.033) 100px, rgba(0, 0, 0, 0.951) 150px);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 254, 254, 0.137);
+    transition: background 0.1s;
+    z-index: 1;
+}
+:root {
+    --x: 50%;
+    --y: 50%;
+}
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
