@@ -9,7 +9,7 @@ An interactive webpage featuring a dynamic **spotlight glow effect** that follow
 Add your deployed Vercel link here:
 
 ```bash
-https://your-project.vercel.app
+https://spotlight-effect2.vercel.app/
 ```
 
 ---
